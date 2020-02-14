@@ -9,7 +9,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     username: ${DB_USERNAME:root}
     password: ${DB_PASSWORD:root}
-    url: ${DB_URL:jdbc:postgresql://${DB_IP}:5432/postgres}
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/postgres}
 logging:
   level:
     org.apache.coyote.http11: debug
